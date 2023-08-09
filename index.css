@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cart {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30em;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 10em;
+}
+
+.heart {
+    margin-right: 10px;
+    cursor: pointer;
+    color: grey;
+}
+
+.name {
+    flex: 1;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #e11313;
+    color: #fff;
+    cursor: pointer;
+}
+
+.total {
+    text-align: right;
+    margin-top: 10px;
+}
